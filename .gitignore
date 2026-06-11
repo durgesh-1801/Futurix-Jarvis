@@ -1,0 +1,62 @@
+# ==============================================================================
+# Futurix Jarvis — Git Ignore Configuration
+# ==============================================================================
+
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- Environment Configuration ---
+.env
+.env.*
+!.env.example
+
+# --- Databases & Vector Stores ---
+*.db
+*.sqlite
+*.sqlite3
+data/chroma_db/
+chroma/
+chroma_db/
+data/jarvis.db
+data/*.db
+
+# --- Logs & Runtime Output ---
+logs/
+*.log
+knowledge_base/uploads/
+
+# --- IDE & Editor Configuration ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Build & Distribution Artifacts ---
+build/
+dist/
+*.spec
+
+# --- OS-specific Files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Test & Coverage Artifacts ---
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/

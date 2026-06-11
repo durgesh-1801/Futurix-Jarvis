@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "name": "example_server",
+      "url": "http://localhost:8080",
+      "description": "Example MCP server — replace with your own",
+      "enabled": false,
+      "tools": ["example_tool"]
+    }
+  ]
+}
